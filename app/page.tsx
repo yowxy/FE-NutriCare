@@ -74,7 +74,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 pb-24 text-center">
+      <section className="max-w-6xl mx-auto px-6 pb-10 text-center">
         <h1 className="text-4xl font-bold mb-4">
           Everything You Need for Healthy Living
         </h1>

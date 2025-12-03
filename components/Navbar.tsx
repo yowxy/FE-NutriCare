@@ -16,10 +16,10 @@ export default function Navbar() {
   const path = usePathname();
 
   const linkClass = (href: string) =>
-    `flex px-3 py-3.5 items-center gap-2 rounded-lg transition ${
+    `flex px-3 py-3.5 items-center gap-2 rounded-xl transition ${
       path === href
-        ? "text-emerald-500 bg-emerald-100/50 hover:bg-emerald-100/30"
-        : "text-gray-500 hover:text-emerald-400 hover:bg-emerald-100/30"
+        ? "text-emerald-500 bg-emerald-100/50 hover:bg-emerald-100/20"
+        : "text-gray-500 hover:text-emerald-400 hover:bg-emerald-100/20"
     }`;
 
   return (
