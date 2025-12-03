@@ -51,7 +51,7 @@ export default function Home() {
           Your Personal Nutrition AI Companion
         </div>
 
-        <h1 className="text-7xl font-bold mb-4">
+        <h1 className="text-7xl font-black mb-4">
           Welcome to <span className="text-emerald-400">NutriCare</span>
         </h1>
 
@@ -75,7 +75,7 @@ export default function Home() {
       </section>
 
       <section className="max-w-6xl mx-auto px-6 pb-10 text-center">
-        <h1 className="text-4xl font-bold mb-4">
+        <h1 className="text-4xl font-black mb-4">
           Everything You Need for Healthy Living
         </h1>
 
