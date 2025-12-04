@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -16,7 +16,7 @@ export default function Navbar() {
   const path = usePathname();
 
   const linkClass = (href: string) =>
-    `flex px-3 py-3.5 items-center gap-2 rounded-xl transition ${
+    `flex items-center gap-2 px-3 py-5 leading-none rounded-xl transition ${
       path === href
         ? "text-emerald-500 bg-emerald-100/50 hover:bg-emerald-100/20"
         : "text-gray-500 hover:text-emerald-400 hover:bg-emerald-100/20"
@@ -26,7 +26,7 @@ export default function Navbar() {
     <nav className="w-full flex justify-center sticky top-4 z-50">
       <div className="backdrop-blur-xl bg-white/60 border border-gray-200/50 shadow-lg shadow-emerald-50 rounded-2xl px-6 py-3.5 flex items-center gap-7 w-fit">
         <div className="text-xl font-bold text-emerald-400">NutriCare</div>
-        <div className="hidden md:flex items-center gap-1 font-medium mx-auto">
+        <div className="flex items-center gap-1 font-medium mx-auto">
           <Link href="/" className={linkClass("/")}>
             <Home className="w-4 h-4" /> Home
           </Link>
